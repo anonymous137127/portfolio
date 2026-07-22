@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Prajwal T N</title>
+<meta name="description" content="Projects by Prajwal T N — AI-powered web applications combining full-stack development, machine learning, and blockchain concepts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span class="caret">&gt;</span>prajwal_tn</a>
+    <ul class="nav-links">
+      <li><a href="index.html">home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="projects.html">projects</a></li>
+      <li><a href="resume.html">resume</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" aria-label="Toggle dark/light mode">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">projects</p>
+    <h1>Things I've built</h1>
+    <p>Academic projects that went further than the brief required — mostly because the ML pipeline broke and I wanted to know why.</p>
+  </div>
+</header>
+
+<main class="section">
+  <div class="wrap">
+
+    <div class="filter-bar reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI / ML</button>
+      <button class="filter-btn" data-filter="blockchain">Blockchain</button>
+      <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+    </div>
+
+    <div class="grid-2 reveal-stagger reveal">
+
+      <article class="project-card reveal-child" data-tags="ai,blockchain,fullstack">
+        <div class="project-visual">
+          <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="10,110 40,90 65,100 95,55 125,70 150,30 190,45" fill="none" stroke="#39FF88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="150" cy="30" r="5" fill="#39FF88"/>
+            <g stroke="#39FF88" stroke-opacity="0.3">
+              <line x1="10" y1="20" x2="10" y2="120"/>
+              <line x1="60" y1="20" x2="60" y2="120"/>
+              <line x1="110" y1="20" x2="110" y2="120"/>
+              <line x1="160" y1="20" x2="160" y2="120"/>
+            </g>
+          </svg>
+        </div>
+        <div class="project-body">
+          <p class="project-tagline">Academic project</p>
+          <h3>AI Cryptocurrency Prediction System</h3>
+          <p class="project-desc">Developed an AI-based cryptocurrency price prediction system using machine learning models, with blockchain concepts integrated to improve data security and transparency. Frontend in React.js, backend in Flask, with real-time data processing and live prediction visualization.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">Flask</span><span class="chip">React</span><span class="chip">Blockchain</span><span class="chip">Machine Learning</span>
+          </div>
+          <div class="project-links">
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.4 7.86 10.94.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.08.78 2.18 0 1.57-.02 2.84-.02 3.23 0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+              GitHub
+            </a>
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M5 5h5v0H5v14h14v-5"/></svg>
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal-child" data-tags="ai,blockchain,fullstack">
+        <div class="project-visual">
+          <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg">
+            <rect x="20" y="70" width="18" height="40" fill="#39FF88" fill-opacity="0.85"/>
+            <rect x="50" y="50" width="18" height="60" fill="#39FF88" fill-opacity="0.65"/>
+            <rect x="80" y="30" width="18" height="80" fill="#39FF88"/>
+            <rect x="110" y="60" width="18" height="50" fill="#39FF88" fill-opacity="0.65"/>
+            <rect x="140" y="45" width="18" height="65" fill="#39FF88" fill-opacity="0.85"/>
+            <path d="M20 40 h150" stroke="#39FF88" stroke-opacity="0.3" stroke-dasharray="4 4"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <p class="project-tagline">Academic project</p>
+          <h3>FinPulse</h3>
+          <p class="project-desc">Blockchain-based financial forecasting and risk detection system. Built a secure financial analytics platform using blockchain concepts for data integrity, with AI-powered forecasting and risk detection modules, visualization dashboards, and REST APIs.</p>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">React.js</span><span class="chip">Flask</span><span class="chip">MySQL</span><span class="chip">Blockchain</span>
+          </div>
+          <div class="project-links">
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.4 7.86 10.94.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.64 1.59.24 2.76.12 3.05.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.42.36.78 1.08.78 2.18 0 1.57-.02 2.84-.02 3.23 0 .3.21.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+              GitHub
+            </a>
+            <a href="#">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14 21 3M5 5h5v0H5v14h14v-5"/></svg>
+              Live Demo
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card reveal-child" data-tags="fullstack">
+        <div class="project-visual">
+          <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="60" cy="70" r="34" fill="none" stroke="#39FF88" stroke-width="2" stroke-opacity="0.5"/>
+            <circle cx="60" cy="70" r="34" fill="none" stroke="#39FF88" stroke-width="3" stroke-dasharray="150 214" stroke-linecap="round" transform="rotate(-90 60 70)"/>
+            <text x="60" y="76" fill="#39FF88" font-size="16" text-anchor="middle" font-family="monospace">70%</text>
+            <line x1="120" y1="35" x2="180" y2="35" stroke="#39FF88" stroke-opacity="0.5"/>
+            <line x1="120" y1="55" x2="165" y2="55" stroke="#39FF88" stroke-opacity="0.5"/>
+            <line x1="120" y1="75" x2="175" y2="75" stroke="#39FF88" stroke-opacity="0.5"/>
+            <line x1="120" y1="95" x2="150" y2="95" stroke="#39FF88" stroke-opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <p class="project-tagline">Internship</p>
+          <h3>Network Security Assessment</h3>
+          <p class="project-desc">Cybersecurity internship at TechnoHacks — performed network scanning with Nmap, analyzed packet captures in Wireshark, identified open ports and vulnerabilities, and wrote up findings in structured reports.</p>
+          <div class="project-stack">
+            <span class="chip">Kali Linux</span><span class="chip">Nmap</span><span class="chip">Wireshark</span>
+          </div>
+          <div class="project-links">
+            <a href="resume.html">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              See on resume
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>&copy; 2026 Prajwal T N. Built from scratch, no template.</span>
+    <div class="footer-socials">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:ppraju126ghu@gmail.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
